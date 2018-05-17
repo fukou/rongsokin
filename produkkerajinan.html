@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+    <link rel="stylesheet" href="produk_kerajinan.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Source+Sans+Pro:400,700" rel="stylesheet"> </head>
+
+<body>
+    <div class="top-bar">
+        <div class="topbar-logo"> rongsok<span>in</span> </div>
+        <ul role="navigation">
+           <li><a href="#">Jual Sampah</a></li>
+           <li><a href="#">Donasi Sampah</a></li>
+           <li><a href="#">Tukar Poin</a></li>
+            <li><a id="btn-daftar" class="-primary-button" href="#">Kembali</a></li>
+        </ul>
+    </div>
+    <div class="inner_section-grid">
+        <div class="grid-produk">
+            <div class="body_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor accusamus distinctio neque, laudantium similique dolores velit odit illum cum in.</div>
+        </div>
+        <div class="grid-produk">
+           <img src="img/p5.jpg" alt="">
+            <h1>Judul</h1>
+            <div class="body_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta eaque corporis, deleniti quo ullam, iste ratione assumenda facere adipisci similique mollitia vel quasi. Dicta nesciunt similique recusandae voluptas expedita, veritatis nisi, aliquid reprehenderit eligendi fuga laborum sunt excepturi! Voluptatem officia, tempora debitis suscipit. In, maxime?</div>
+        </div>
+        <div class="grid-produk"><img src="img/p1.jpg" alt="">
+            <div class="body_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor accusamus distinctio neque, laudantium similique dolores velit odit illum cum in.</div>
+        </div>
+        <div class="grid-produk"><img src="img/p2.jpg" alt="">
+            <div class="body_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, delectus amet consectetur magnam consequatur velit maiores eveniet assumenda voluptatem eum exercitationem fuga quaerat accusantium rerum labore aperiam, blanditiis aliquam quibusdam minima id reprehenderit natus mollitia excepturi. Illo dolor nemo eligendi, optio pariatur assumenda debitis deleniti similique labore excepturi fuga rem error rerum quis iure distinctio, porro id at.</div>
+        </div>
+        <div class="grid-produk"><img src="img/p3.jpg" alt="">
+            <div class="body_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor accusamus distinctio neque, laudantium similique dolores velit odit illum cum in.</div>
+        </div>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="masonry.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.inner_section-grid').masonry({
+                // options
+                itemSelector: '.grid-produk'
+            });
+        });
+    </script>
+</body>
+
+</html>
